@@ -28,5 +28,5 @@ function Navbar() {
       </Container>
     </div>
   );
-
+}
 export default Navbar;
