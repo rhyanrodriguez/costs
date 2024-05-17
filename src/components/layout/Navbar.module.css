@@ -7,7 +7,7 @@
   }
   
   img {
-    width: 45px;
+    width: 50px;
   }
   
   .list {
@@ -26,6 +26,6 @@
   }
   
   .item a:hover {
-    color: #ffbb33;
+    color: #74B7A5;
     text-decoration: none;
   }
