@@ -12,14 +12,18 @@ function Home() {
       <p>Comece a baixar agora mesmo!</p>
       <ul className={styles.list2}>
         <li>
-          <Link to="/prestados">Prestados</Link>
+          <Link to="/prestados">
+            <span className={styles.prestados}>Prestados</span>
+          </Link>
         </li>
         <li>
-          <Link to="/tomados">Tomados</Link>
+          <Link to="/tomados">
+            <span className={styles.tomados}>Tomados</span>
+          </Link>
         </li>
       </ul>
-      <p>oao</p>
-      <img src={carinha} alt="home_image" />
+      <p></p>
+      <img className={carinha} src={carinha} alt="home_image" />
     </section>
   );
 }
