@@ -28,4 +28,32 @@
 .home_container img{
     width: 400px;
     margin: 2em 0;
+
 }
+
+.list2 {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home_container li {
+    margin-right: 1.5em;
+  }
+  
+  .home_container li a{
+    color: #222;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .home_container li a:hover{
+    color: #0B4E68;
+    text-decoration: none;
+  }
+
+  .home_container p{
+    margin: 1em;
+    padding: ;
+  }
