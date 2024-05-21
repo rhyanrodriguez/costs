@@ -1,8 +1,9 @@
 .footer {
     background-color: #0b4e68;
     color: #fff;
-    padding: 3em;
+    padding: 2em;
     text-align: center;
+  
   }
   
   .social_list {
@@ -31,5 +32,6 @@
   .copy_right span {
     font-weight: bold;
     color: #74B7A5;
+
   }
 
