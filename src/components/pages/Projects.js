@@ -1,4 +1,4 @@
 function Projects() {
-  return <h1>Pasta Projeto</h1>;
+  return <h1>Pasta</h1>;
 }
 export default Projects;
