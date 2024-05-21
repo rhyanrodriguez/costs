@@ -1,4 +1,15 @@
+import ButtonUI from "../layout/ButtonUI";
+import styles from "./Tomados.module.css";
+import Date from "../layout/Date";
+
 function Tomados() {
-  return <h1>Tomados</h1>;
+  return (
+    <div className={styles.baixar_notas}>
+      <h1>Baixar Notas</h1>
+      <h3>Selecionar Competência:</h3>
+      <ButtonUI />
+      <Date />
+    </div>
+  );
 }
 export default Tomados;
