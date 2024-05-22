@@ -1,10 +1,14 @@
 .buttonUi{
-    color: #0b4e68;
+    color: #D9D9D9;
     font-family: 'Lexend', sans-serif;
     border-color: #0b4e68;
+    background-color: #0b4e68;
+    margin-top: 2em;
 }
 
 .buttonUi:hover{
     font-family: 'Lexend', sans-serif;
     border-color: #0b4e68;
+    background-color: #0b4e68;
 }
+
