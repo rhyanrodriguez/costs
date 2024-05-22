@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #0B4E68;
+  background-image: linear-gradient(to right, #0B4E68, #169ACE);
   padding: 1em;
 }
 
@@ -9,6 +9,7 @@
   display: flex;
   list-style: none;
   align-items: center;
+  margin-top: 15px;
 }
 
 .item {
@@ -28,5 +29,5 @@
 }
 
 .logoImg {
-  width: 50px;
+  width: 40px;
 }
