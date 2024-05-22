@@ -1,10 +1,17 @@
-import React from "react";
-import { DatePicker } from "@nextui-org/react";
+import * as React from "react";
+import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
-export default function App() {
+import styles from "./Date.module.css";
+
+export default function BasicDatePicker() {
   return (
-    <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
-      <DatePicker label="Birth date" className="max-w-[284px]" isRequired />
-    </div>
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <DemoContainer className={styles.container} components={["DatePicker"]}>
+        <DatePicker className={styles.container_name} label="Competência" />
+      </DemoContainer>
+    </LocalizationProvider>
   );
 }

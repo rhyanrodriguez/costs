@@ -7,8 +7,8 @@ function Tomados() {
     <div className={styles.baixar_notas}>
       <h1>Baixar Notas</h1>
       <h3>Selecionar Competência:</h3>
-      <ButtonUI />
       <Date />
+      <ButtonUI />
     </div>
   );
 }
