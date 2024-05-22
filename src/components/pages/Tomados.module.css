@@ -1,7 +1,6 @@
 .baixar_notas{
     width: 100%;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
     padding: 3em;
 }
 
@@ -17,16 +16,25 @@
     font-family: 'Lexend', sans-serif;
 
     font-size: 1.0em;
-    margin-bottom: 0.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: #0B4E68;
+}
+
+.section1 {
+    flex: 2;
+}
+
+.section2 {
+    flex: 1;
+}
+
+.section2 p{
+
+    font-family: 'Lexend', sans-serif;
+    margin-top: 3em;
+    font-size: 1.0em;
     color: #0B4E68;
 
 }
-
-.baixar_notas Button{
-
-    color: #d9d9d9;
-    font-family: 'Lexend', sans-serif;
-}
-
-
 
