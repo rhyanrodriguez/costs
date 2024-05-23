@@ -11,7 +11,7 @@ function Tomados() {
           UneCont <span className={styles.tomatoma}>Tomados</span>
         </h1>
         <h3>Selecionar Competência:</h3>
-        <Date />
+        <Date className={styles.datePicker} />
         <ButtonUI />
       </div>
       <div className={styles.section2}>
