@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #0B4E68, #169ACE);
+  background-image: linear-gradient(to right, #0B4E68, #045f83);
   padding: 1em;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .item {
-  margin-right: 1.5em;
+  margin-right: 2.5em;
 }
 
 .item a {
@@ -30,4 +30,5 @@
 
 .logoImg {
   width: 40px;
+  border-color: #d9d9d9;
 }

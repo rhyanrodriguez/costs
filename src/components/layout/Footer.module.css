@@ -1,5 +1,5 @@
 .footer {
-  background-image: linear-gradient(to left, #0B4E68, #169ACE);    
+  background-image: linear-gradient(to left, #0B4E68, #045f83);    
   color: #fff;
     padding: 2em;
     text-align: center;  
@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin-top: 0.8em;
   }
   
   .social_list li {
