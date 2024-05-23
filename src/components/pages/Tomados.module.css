@@ -21,12 +21,18 @@
     color: #0B4E68;
 }
 
+.tomatoma{
+  background-color: #0B4E68;
+  color: #d9d9d9;
+  padding: 3.2px;
+}
 .section1 {
     flex: 2;
 }
 
 .section2 {
     flex: 1;
+    border: 1px  
 }
 
 .section2 p{
@@ -35,7 +41,6 @@
     margin-top: 3em;
     font-size: 1.0em;
     color: #0B4E68;
-
 }
 
 @keyframes rotate {
@@ -48,11 +53,11 @@
   }
   
   .loading_logo{
-    animation: rotate 2s linear infinite;
-  }
-
-  .loading_logo{
-    width: 30px;
+    animation: rotate 5s linear infinite;
+    height: auto;
+    width: 25px;
+    margin-bottom: -2em;
+    margin-top: 20em;
   }
 
 
