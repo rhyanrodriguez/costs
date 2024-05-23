@@ -38,3 +38,22 @@
 
 }
 
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading_logo{
+    animation: rotate 2s linear infinite;
+  }
+
+  .loading_logo{
+    width: 30px;
+  }
+
+
+
